@@ -9,10 +9,17 @@ Exploratory Data Analysis (EDA): Correlation analysis, trend visualization, vola
 
 Model Development:
 
-Linear Regression (R² = 1.00, potential overfitting)
+- Linear Regression (R² = 1.00, potential overfitting)
 
-XGBoost (R² = 0.83, better generalization)
+- XGBoost (R² = 0.83, better generalization)
 
-Prophet (R² = 0.98, high MAE but good for trends)
+- Prophet (R² = 0.98, high MAE but good for trends)
 
 Performance Comparison: MSE, MAE, and R² metrics evaluated.
+
+## Results
+- Best R²: Linear Regression (1.00, but overfitted).
+
+- Most Balanced Model: XGBoost (R² = 0.83).
+
+- Best for Trends: Prophet (R² = 0.98).
